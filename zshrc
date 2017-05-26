@@ -10,7 +10,7 @@ ZSH_THEME="ys"
 # VCS as dirty. This makes repository status check for large repositories much,
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(golang cargo git git-extras vagrant mvn autojump histoty-substring-search web-search jsontools)
+plugins=(golang cargo git git-extras vagrant mvn autojump history-substring-search web-search jsontools)
 
 source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/work/tools/lein:/work/git-extras

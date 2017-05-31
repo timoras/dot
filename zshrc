@@ -16,7 +16,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/work/tools/lein:/work/git-extras
 export GOPATH=/work/proj/gosandbox
 export PATH="$HOME/.cargo/bin:$PATH:$GOPATH/bin"
-
+export PATH="$PATH:$HOME/.rvm/bin"
+source $HOME/.rvm/scripts/rvm
 # Customize to your needs...
 alias grup='git remote update -p'
 
